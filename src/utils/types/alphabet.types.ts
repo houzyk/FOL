@@ -13,6 +13,7 @@
  * @variables is the infinite set of variables
  * @predicates is the infinite set of properties
  * @constants is the infinite set of constants
+ * @parentheses == ()
 */
 
 export default interface Alphabet {
@@ -30,4 +31,5 @@ export default interface Alphabet {
   variables: string[];
   predicates: string[];
   constants: string[];
+  parentheses: ["(", ")"];
 }

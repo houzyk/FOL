@@ -1,8 +1,8 @@
 import Alphabet from "../types/alphabet.types"
 
 const alphabet: Alphabet = {
-  existentialQuantifier: "",
-  universalQuantifier: "",
+  existentialQuantifier: "_V_",
+  universalQuantifier: "_E_",
   conjunction: "&",
   disjunction: "v",
   conditional: "->",
@@ -14,7 +14,8 @@ const alphabet: Alphabet = {
   _function: getFunctions(),
   constants: getConstants(),
   variables: getVariables(),
-  predicates: getPredicates()
+  predicates: getPredicates(),
+  parentheses: ["(", ")"]
 }
 
 function getFunctions(): Alphabet["_function"] {

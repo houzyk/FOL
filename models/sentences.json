@@ -1,0 +1,9 @@
+{
+  "theorems": [
+    "_V_x(Fx -> Fx)",
+    "_V_x(x = x)"
+  ],
+  "fallacies": [
+    "_E_(Px & ~Px)"
+  ]
+}
