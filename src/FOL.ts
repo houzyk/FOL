@@ -1,0 +1,3 @@
+class FOL {
+  constructor() {}
+}
