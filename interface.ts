@@ -1,11 +1,10 @@
-import { Parser } from "./src/syntax/Parser";
+import Controller from "./controllers/controller";
 
-const parser: Parser = new Parser;
+const controller: Controller = new Controller;
 
 // ! PLAYGROUND
 const input: string = `
 
 
 `
-
-parser.parse(input);
+controller.parser(input);
