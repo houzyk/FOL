@@ -1,9 +1,9 @@
 {
   "theorems": [
-    "_V_x(Fx -> Fx)",
-    "_V_x(x = x)"
+    "prop F; all(x) {if(is(x, f), is(x, f))};",
+    "all (x) {x = x};"
   ],
   "fallacies": [
-    "_E_(Px & ~Px)"
+    "prop P; exist(x) { and(is(x, P), not(is(x, P)) };"
   ]
 }
